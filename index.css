@@ -1,14 +1,23 @@
+/*Drop Down Styling */
 .dropdown 
 {
   display: inline-block;
   position: relative;
 }
 
+.dropbtn
+{
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+
 .dropdown-content 
 {
   display: none;
   position: absolute;
-  width: 100%;
+  width: auto;
   overflow: auto;
   box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
 }
@@ -21,13 +30,92 @@
 .dropdown-content a 
 {
   display: block;
-  color: #000000;
+  background: #FFFFFF;
   padding: 10px;
   text-decoration: none;
+  color: #000000;
+
 }
 
 .dropdown-content a:hover 
 {
+  color: #000000;
+  background-color: #F4F4F4;
+}
+
+.rectangle
+{
+
+  width: 100%;
+  height: 100px;
+  border:transparent;
+  background: #90171C;
+}
+
+/* Body styling */
+body 
+{
+  color: #000000;
+  font-family: Century Gothic;
+  font-size: 24px;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 40px 10px;  
+}
+
+/* Heading Styles */
+h1 
+{
+  font-size: 64px;
+  color: #000000;
+  text-align: center;
+}
+
+h2 
+{
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+  font-weight: normal;
+}
+
+/* Description Styles */
+.d-table 
+{
+  display:table;
+}
+
+.d-table-cell 
+{
+  display:table-cell;
+}
+
+.w-100 
+{
+  width: 100%;
+}
+
+.desc1
+{
+  font-size: 24px;
+  text-align: left;
+}
+
+.desc2
+{
+  font-size: 24px;
+  text-align: right;
+}
+
+/*Button Link Styling */
+.button-link
+{
+  background: #90171C;
+  border: transparent;
+  width: 284px;
+  height: 76px;
+  border-radius: 10px;
   color: #FFFFFF;
-  background-color: #00A4BD;
+  font-size: 40px;
+  font-family: Century Gothic;
 }
