@@ -3,6 +3,7 @@
 {
   display: inline-block;
   position: relative;
+  
 }
 
 .dropbtn
@@ -10,7 +11,8 @@
   width: 84px;
   height: 84px;
   border-radius: 10px;
-  background: #FFFFFF;
+  border: none;
+  background: #F4F4F4;
 }
 
 .dropdown-content 
@@ -43,27 +45,36 @@
   background-color: #F4F4F4;
 }
 
+/*Center align images*/
+.center 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .rectangle
 {
-
-  width: 100%;
+  width: 100vw;
   height: 100px;
-  border:transparent;
+  border:none;
   background: #90171C;
+  align-items: center;
 }
 
-/* Body styling */
-body 
+.logo
 {
-  color: #000000;
-  font-family: Century Gothic;
-  font-size: 24px;
-  margin: 0 auto;
-  max-width: 960px;
-  padding: 40px 10px;  
+  width: 331px;
+  height: 221px;
 }
 
-/* Heading Styles */
+nav
+{
+  text-align: left;
+}
+
+/* Heading Styling*/
 h1 
 {
   font-size: 64px;
@@ -79,7 +90,39 @@ h2
   font-weight: normal;
 }
 
-/* Description Styles */
+h3
+{
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Body styling */
+body 
+{
+  color: #000000;
+  font-family: Century Gothic;
+  font-size: 24px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*Footer Styling*/
+footer
+{
+  background: #F4F4F4;
+  height: 157px;
+}
+
+.container
+{
+  max-width: 960px;
+  padding: 40px 10px;
+  margin: 0 auto;
+}
+
+/* Description Styling*/
 .d-table 
 {
   display:table;
