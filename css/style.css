@@ -54,6 +54,7 @@
   width: 50%;
 }
 
+/*Header rectangle*/
 .rectangle
 {
   width: 100vw;
@@ -63,6 +64,7 @@
   align-items: center;
 }
 
+/*Sizes logo*/
 .logo
 {
   width: 331px;
@@ -113,9 +115,9 @@ body
 footer
 {
   background: #F4F4F4;
-  height: 157px;
 }
 
+/*Section container*/
 .container
 {
   max-width: 960px;
@@ -161,7 +163,7 @@ footer
   border-radius: 10px;
   color: #FFFFFF;
   font-size: 40px;
-  font-family: Century Gothic;
+  
 }
 
 /*Table Cell Styling*/
