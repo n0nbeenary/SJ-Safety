@@ -15,6 +15,15 @@
   background: #F4F4F4;
 }
 
+@media screen and (max-width: 480px) 
+{
+  .dropbtn
+  {
+    width: 42px;
+    height: 42px;
+  }
+}
+
 .dropdown-content 
 {
   display: none;
