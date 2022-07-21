@@ -54,6 +54,14 @@
   width: 50%;
 }
 
+@media screen and (max-width: 480px) 
+{
+  img
+  {
+    max-width: 100%;
+  }
+}
+
 /*Header rectangle*/
 .rectangle
 {
@@ -64,13 +72,29 @@
   align-items: center;
 }
 
+@media screen and (max-width: 480px) 
+{
+  .rectangle
+  {
+    height: 50px;
+  }
+} 
+
 /*Sizes logo*/
 .logo
 {
-  width: 331px;
-  height: 221px;
+  width: 330px;
+  height: 220px;
 }
 
+@media screen and (max-width: 480px) 
+{
+  .logo
+  {
+    width: 165px;
+    height: 110px;
+  }
+}
 /*Nav Styling*/
 nav
 {
@@ -101,6 +125,22 @@ h3
   font-weight: bold;
 }
 
+@media screen and (max-width: 480px) 
+{
+  h1
+  {
+    font-size: 32px;
+  }
+  h2 
+  {
+    font-size: 16px;
+  }
+  h3
+  {
+    font-size: 16px;
+  }
+}
+
 /* Body styling */
 body 
 {
@@ -111,10 +151,30 @@ body
   text-align: center;
 }
 
+@media screen and (max-width: 480px) 
+{
+  body
+  {
+    font-size: 12px;
+  }
+}
+
 /*Footer Styling*/
 footer
 {
   background: #F4F4F4;
+}
+
+@media screen and (max-width: 480px) 
+{
+  input[type=text] 
+  {
+   width: 100%;
+   padding: 15px;
+   margin: 5px 0 22px 0;
+   display: inline-block;
+   border: none;
+  }
 }
 
 /*Section container*/
@@ -153,6 +213,19 @@ footer
   text-align: right;
 }
 
+@media screen and (max-width: 480px) 
+{
+  .desc1
+  {
+    font-size: 12px;
+  }
+
+  .desc2
+  {
+    font-size: 12px;
+  }
+}
+
 /*Button Link Styling */
 .button-link
 {
@@ -163,7 +236,16 @@ footer
   border-radius: 10px;
   color: #FFFFFF;
   font-size: 40px;
-  
+}
+
+@media screen and (max-width: 480px) 
+{
+  .button-link
+  {
+    width: 142px;
+    height: 38px;
+    font-size: 20px;
+  }
 }
 
 /*Table Cell Styling*/
